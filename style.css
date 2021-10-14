@@ -1,0 +1,123 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  background: #FFFFCC;
+  margin: 0;
+}
+
+.header {
+  font-family:'Montserrat', sans-serif;
+  color: #336666;
+  padding: 2em 0;
+  background: linear-gradient(to bottom, rgba(204, 153, 51,0.64) 0%, rgba(255, 255, 204,0.65) 100%);
+  text-align: center;
+  background-size:auto;
+  height: 100px;
+}
+.left{
+  width:300px;
+  float: left;
+}
+.right{
+  margin-left: 300px;
+}
+.iconDatacontainer{
+  margin-left: 30px;  
+  margin-top: 20px;
+}
+.map-container {
+  position: relative;
+  left: 10px;
+  width: 800px;  
+  height: 450px;
+  margin-left: 50px;
+}
+.chartClass{
+  height: 600px;
+ }
+.chartCanvas{
+   margin-right: 100px;
+}
+ 
+.donutsChartClass{
+  width: 300px;
+  height: 420px;
+}
+#disability_icon{
+  margin-top: 100px;
+}
+#adaAccessableChart{
+  margin-top: 130px;
+
+}
+#safetySurfaceChart{
+  margin-top: 100px;
+
+}
+
+
+#mapid {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+}
+.map-overlay {
+  position: absolute;
+  z-index: 100;
+  background: rgba(255, 255, 255, 0.7);
+  font-family: 'Montserrat', sans-serif;
+  font-size: small;
+  overflow: auto;
+  border-radius: 3px;
+}
+#maplegends {
+  bottom: 70px;
+  left: 20px;
+  padding: 10px;
+  height: 120px;
+  width: 190px;
+}
+.legend-keys {
+  display: inline-block;
+  border-radius: 20%;
+  width: 10px;
+  height: 10px;
+  margin-right: 5px;
+}
+
+#numfeatures {
+  top: 0;
+  left: 20px;
+  height: auto;
+  margin-top: 20px;
+  width: 300px;
+}
+
+
+
+#numfeatures p {
+  margin: 10px;
+  font-size: 0.9em;
+  text-align: left;
+}
+.popupspan p{
+  font-size: 0.9em;
+  font-family: 'Montserrat', sans-serif;
+}
+.popupspan h6{
+  font-size: 1.2em;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h3 {
+  margin: 10px;
+  font-size: 1.2em;
+  text-align: left;
+  font-family: 'Montserrat', sans-serif;
+}
+#treeMapcontainer{
+  margin-left: 250px;
+  height: 500px;
+  width: 700px;
+}
+ 
