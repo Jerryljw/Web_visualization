@@ -2,6 +2,7 @@ body {
   font-family: 'Montserrat', sans-serif;
   background: #FFFFCC;
   margin: 0;
+  text-align: center;
 }
 
 .header {
@@ -13,17 +14,21 @@ body {
   background-size:auto;
   height: 100px;
 }
+
 .left{
-  width:300px;
+  margin-top: 10%;
   float: left;
+  width: 25%;
+  margin-left: 5%;
+  height: 80%;
+  text-align: center;
 }
 .right{
-  margin-left: 300px;
+  margin-left: 25%;
+  width: 75%;
+  height: 80%;
 }
-.iconDatacontainer{
-  margin-left: 30px;  
-  margin-top: 20px;
-}
+
 .map-container {
   position: relative;
   left: 10px;
@@ -31,11 +36,22 @@ body {
   height: 450px;
   margin-left: 50px;
 }
+
+.iconDatacontainer{
+  position:absolute;
+  width: 30%;
+  text-align: center;
+  margin-left: 5%;
+  margin-top: 5%;
+}
+
 .chartClass{
   height: 600px;
  }
 .chartCanvas{
-   margin-right: 100px;
+   margin-left: 30%;
+   width: 70%;
+   margin-right: 5%;
 }
  
 .donutsChartClass{
@@ -115,9 +131,22 @@ h3 {
   text-align: left;
   font-family: 'Montserrat', sans-serif;
 }
-#treeMapcontainer{
-  margin-left: 250px;
-  height: 500px;
-  width: 700px;
+#sunburst_container{
+  margin-left: auto;
+  margin-right: auto;
+  width: 60em;
 }
- 
+
+#treeMapcontainer{
+  margin-left: auto;
+  margin-right: auto;
+  width: 60em;
+  height: 500px;
+
+}
+
+#lineChartContainer{
+  margin-left: auto;
+  margin-right: auto;
+  width: 60em;
+}

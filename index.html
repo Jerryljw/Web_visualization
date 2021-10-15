@@ -24,27 +24,12 @@
         <h1> Playground Equipments in Pittsburgh </h1>
     </div>
 
-    <div class="container">
         <div class="left">
-            <div class="iconDatacontainer" style=" text-align: center;">
                 <img src="icon/playground.svg" width="70px" height="70px" alt="surface">
                 <h6 style="color: #336666;font-size: 1.2em;">123 Playgrounds in Pittsburgh</h6>
 
                 <img src="icon/toy2.svg" width="70px" height="70px" alt="surface">
                 <h6 style="color: #336666;font-size: 1.2em;">445 Playground Equipments</h6>
-            </div>
-
-            <div class="iconDatacontainer" id="disability_donut" style=" text-align: center;">
-                <img src="icon/disability_fill.svg" id="disability_icon" width="70px" height="70px" alt="disability">
-                <div class="donutsChartClass" id="adaDonuts"></div>
-            </div>
-
-
-            <div class="iconDatacontainer" id="safety_donut" style=" text-align: center;">
-                <img src="icon/safety-certificate.svg" id="safety_icon" width="70px" height="70px" alt="safety">
-                <div class="donutsChartClass" id="safetySurfaceDonuts"></div>
-            </div>
-
         </div>
 
         <div class="right">
@@ -58,24 +43,44 @@
                     </div>
                 </div>
             </div>
-            <canvas class="chartCanvas" id="adaAccessableChart"></canvas>
-            <canvas class="chartCanvas" id="safetySurfaceChart"></canvas>
         </div>
+
+        
+
+        <div class="iconDatacontainer" id="disability_donut">
+            <img src="icon/disability_fill.svg" id="disability_icon" width="70px" height="70px" alt="disability">
+            <div class="donutsChartClass" id="adaDonuts"></div>
+        </div>
+        <canvas class="chartCanvas" id="adaAccessableChart"></canvas>
+
+
+        <div class="iconDatacontainer" id="safety_donut">
+            <img src="icon/safety-certificate.svg" id="safety_icon" width="70px" height="70px" alt="safety">
+            <div class="donutsChartClass" id="safetySurfaceDonuts"></div>
+        </div>
+        <canvas class="chartCanvas" id="safetySurfaceChart"></canvas>
+
+
 
         <div style=" text-align: center; padding-top: 80px;">
             <img src="icon/playworld.svg" width="100px" height="100px" alt="surface">
             <h6 style="color: #336666;font-size: 1.2em;">"playworld" accounts for 50.9% of all playground equipment in
                 Pittsburgh </h6>
         </div>
+
         <div id="sunburst_container" style="height: 600px"></div>
+
         <div style=" text-align: center; padding-top: 80px;">
             <img src="icon/fire hydrant-fill.svg" width="100px" height="100px" alt="surface">
         </div>
+
         <div class="chartClass" id="lineChartContainer"></div>
+
         <div style=" text-align: center; padding-top: 80px;">
             <img src="icon/neighborhood.svg" width="100px" height="100px" alt="surface">
         </div>
-        <div class="treeMapcontainerClass">
+
+        <div class="treeMapcontainerClass" >
             <div class="chartClass" id="treeMapcontainer"></div>
         </div>
         <div class="block" style="height: 100px;"></div>
